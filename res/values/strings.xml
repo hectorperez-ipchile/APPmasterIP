@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ParteHectorPerez</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_programacion">Programacion</string>
+    <string name="title_activity_base_de_datos">BaseDeDatos</string>
+    <string name="title_activity_ingles">Ingles</string>
+    <string name="title_activity_desarollo_de_sistema">DesarolloDeSistema</string>
+
+</resources>

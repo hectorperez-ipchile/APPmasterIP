@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".NotasPrincipal" >
+
+    <Spinner
+        android:id="@+id/Asignaturas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ghola"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/nadnnda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="Instituto Profesional de Chile " />
+
+    <TextView
+        android:id="@+id/ghola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Asignaturas"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:text="Asignaturas"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/VerNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/Asignaturas"
+        android:layout_below="@+id/Asignaturas"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="80dp"
+        android:onClick="vernotas"
+        android:text="Ver Notas" />
+
+</RelativeLayout>
